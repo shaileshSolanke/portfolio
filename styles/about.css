@@ -1,0 +1,101 @@
+#about {
+  height: 100vh;
+  position: relative;
+  background: #0d0916;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.about-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blue-shape1 {
+  z-index: 0;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  height: 400px;
+  width: 500px;
+  background: linear-gradient(#627ad0, #33abcc);
+  border-radius: 50%;
+  filter: blur(15px);
+  animation: animation3;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.blue-shape2 {
+  z-index: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  height: 200px;
+  width: 250px;
+  background: linear-gradient(#627ad0, #33abcc);
+  border-radius: 50%;
+  filter: blur(15px);
+  animation: animation2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.about-container .left-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-container .left-section img {
+  position: relative;
+  width: 70%;
+  border-radius: 2rem;
+}
+.about-container .right-section {
+  margin: 1rem 0;
+  padding: 2rem 0 0 4rem;
+}
+.about-container .right-section p {
+  margin:0.5rem 0;
+  text-align: justify;
+  position: relative;
+}
+.about-container .right-section .role,
+.location {
+  color: #ffb210;
+  font-size: 1.5rem;
+  font-weight: bold;
+  mix-blend-mode: difference;
+}
+.about-container .right-section .p1,
+.p2 {
+  text-indent: 2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-container .right-section {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-container .right-section {
+    padding: 1rem 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .about-container .right-section {
+    padding: 0 1rem;
+  }
+}

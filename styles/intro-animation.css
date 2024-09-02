@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "space-mono";
+  src: url("../assets/fonts/SpaceMono-Regular.ttf");
+}
+.intro-animation-container {
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #130e22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.intro-animation-container.move-up {
+  transition: transform 1s ease-in-out;
+  transform: translatey(-105%);
+}
+.intro-animation {
+  background: #0d0916;
+  max-width: 80%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.intro-animation .top-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.intro-animation .top-section button {
+  color: #bbbdc3;
+  background: #323544;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #ffb210;
+    color: #0d0916;
+  }
+}
+.intro-animation .top-section button img {
+  height: 24px;
+  margin-right: 0.5rem;
+}
+.intro-animation .bottom-section {
+  padding: 3rem;
+}
+.intro-animation .bottom-section p {
+  margin: 0;
+  color: #ffb210;
+  font-size: 1.5rem;
+}
+.intro-animation .bottom-section input {
+  text-align: center;
+  width: 120px;
+  color: #b8bec1;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffb210;
+  &:focus {
+    outline: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-animation .bottom-section p{
+    font-size: 1rem;
+  }
+  .intro-animation .bottom-section input{
+    font-size: 1rem;
+    width: 60px;
+  }
+  .intro-animation .bottom-section {
+    padding: 1.5rem;
+  }
+}
+

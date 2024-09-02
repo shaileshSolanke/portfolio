@@ -1,0 +1,118 @@
+#projects {
+  margin-block: 15vh;
+  position: relative;
+  background: #0d0916;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project {
+  width: 80%;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 50% 45%;
+  column-gap: 5%;
+  margin-bottom: 10vh;
+
+}
+.project .project-poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project .project-poster img {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 5px solid #33abcc;
+  /* box-shadow: 0 0 100px #33abcc; */
+}
+.project .project-info .project-title {
+  text-align: center;
+  color: #ffb210;
+  font-size: 2rem;
+}
+.project .project-info .project-description {
+  text-indent: 2rem;
+  color: #b8bec1;
+  text-align: justify;
+}
+.project .project-info .languages-used {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project .project-info .languages-used span {
+  color: #627ad0;
+}
+.project .project-info .project-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project .project-info .project-links a {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #33abcc;
+  display: flex;
+  align-items: center;
+}
+.project .project-info .project-links a img {
+  margin-left: 0.5rem;
+  height: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .project .project-info .languages-used span {
+    margin-bottom: 1rem;
+  }
+  .project .project-info .project-title{
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .project .project-info .languages-used span {
+    margin-bottom: 1rem;
+  }
+  .project .project-info .project-title{
+    font-size: 3rem;
+  }
+}
+
+/* @media only screen and (min-width: 1025px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .project .project-info .languages-used span {
+    margin-bottom: 1rem;
+  }
+  .project .project-info .project-title{
+    font-size: 4rem;
+  }
+  .project .project-poster img {
+    width: 80%;
+  }
+} */

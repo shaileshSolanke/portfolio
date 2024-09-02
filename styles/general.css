@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "space-mono";
+  src: url("../assets/fonts/SpaceMono-Regular.ttf");
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #ffb210 #0d0916;
+}
+body {
+  background: #0d0916;
+  color: white;
+  font-family: "space-mono";
+  margin: 0;
+  padding: 0;
+}
+.alpha {
+  color: #627ad0;
+}
+.beta {
+  color: #829bc2;
+}
+.gamma {
+  color: #b8bec1;
+}
+.delta {
+  color: #33abcc;
+}

@@ -1,0 +1,69 @@
+#contact {
+  position: absolute;
+  background: #0d0916;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+#contact p {
+  position: relative;
+  top: 30%;
+  width: 80%;
+  color: #33abcc;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: difference;
+}
+#contact p a {
+  display: flex;
+  align-items: center;
+}
+#contact p a img {
+  height: 3rem;
+  margin-left: 1rem;
+}
+#contact .fire {
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #ffb210,
+    #33abcc,
+    #33abcc,
+    #627ad0,
+    #627ad0
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  #contact p {
+    font-size: 1.2rem;
+    top: 30%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  #contact p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #contact p {
+    font-size: 2rem;
+  }
+}
