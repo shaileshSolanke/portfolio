@@ -3,7 +3,7 @@ const nav = document.querySelector("nav");
 nav.innerHTML = `
 <div class="left-nav">
         <p>
-          <a href="https://drive.google.com/file/d/1CNU_ThMLKWn97mESCOD5UqX0prTIkf8E/view"
+          <a href="https://drive.google.com/file/d/1OOibbVRxzWNtgx7JCMI9WdjTa0xdRDga/view"
             ><span class="alpha">shaileshSolanke</span>&#40;&#41;<span
               class="delta"
               >&#59;</span
