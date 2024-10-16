@@ -26,6 +26,15 @@ const projectList = [
     code: "https://github.com/shaileshSolanke/react-mini-projects",
     liveDemo: "https://shaileshsolanke-react-mini-projects.netlify.app/",
   },
+  {
+    img: "./assets/images/movie-app.gif",
+    name: "Movie App",
+    languages: ["React","TailWind","TMDB"],
+    discription:
+      "A React-based web application that allows users to browse and search for movies using the TMDB API. The app features multiple sections like popular movies, top-rated movies, upcoming releases, and more, with a clean, responsive design using Tailwind CSS. Movies are visually sorted by their ratings, and various UX improvements such as pagination control and loaders are implemented for better user experience.",
+    code: "https://github.com/shaileshSolanke/movie-app-react-tailwind",
+    liveDemo: "https://shaileshsolanke-movie-app.netlify.app/",
+  },
 ];
 
 const projects = document.querySelector("#projects");
