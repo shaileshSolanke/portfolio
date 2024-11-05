@@ -35,6 +35,15 @@ const projectList = [
     code: "https://github.com/shaileshSolanke/movie-app-react-tailwind",
     liveDemo: "https://shaileshsolanke-movie-app.netlify.app/",
   },
+  {
+    img: "./assets/images/desktop-view.gif",
+    name: "E-Commerce Furniture",
+    languages: ["React","TailWind","Redux"],
+    discription:
+      "This project is a comprehensive React web application that enhances user interaction with a room-themed product showcase. The app features dedicated pages for the Living Room, Bedroom, Kitchen, and Workplace, each with a unique background image and a day/night mode toggle for immersive viewing.<br><br>Users can explore room-specific products that align with the items depicted in the room's background, such as chairs and sofas in the Living Room or cookware in the Kitchen. Product data is managed through a JSON file hosted on GitHub and used as an API, ensuring easy updates and scalability.",
+    code: "https://github.com/shaileshSolanke/furniture",
+    liveDemo: "https://shaileshsolanke-furniture.netlify.app/",
+  },
 ];
 
 const projects = document.querySelector("#projects");

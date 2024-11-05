@@ -17,7 +17,10 @@ logoList = [
     img: "./assets/skills/react.svg",
     alt: "React",
   },
-
+  {
+    img: "./assets/skills/tailwind.svg",
+    alt: "TailWind",
+  },
   {
     img: "./assets/skills/sql.svg",
     alt: "SQL",
